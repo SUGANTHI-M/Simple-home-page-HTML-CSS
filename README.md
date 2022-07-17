@@ -1,25 +1,25 @@
 ﻿This project is a simple home page consisting of a navigation bar and the content with search bar using HTML and CSS. 
 
+HEADER SECTION:
+HTML:
+<nav>                           
+     <img src="mainlogo.png" class="logo">
+     <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="">Reviews</a></li>
+          <li><a href="">Contacts</a></li>
+          <li class="btn">Sign up</li>
+      </ul>
+</nav>  
 
-Header section:
-HTML
-            <nav>                           
-                <img src="mainlogo.png" class="logo">
-                <ul class="nav-links">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Reviews</a></li>
-                    <li><a href="">Contacts</a></li>
-                    <li class="btn">Sign up</li>
-                </ul>
-            </nav>        
 <nav> tag - used for declaring the navigation section which contains navigation links, either within current document or to another document 
 <img> tag - inserting the logo image 
 <ul> tag     -  for navigational links as unordered list ( For ‘Sign up’, we are creating a button )
 
 
-CSS
-class ‘logo’ 
+CSS:
+#class ‘logo’ 
 .logo
 {
     margin-top: 15px;
@@ -28,7 +28,7 @@ class ‘logo’
 }
 
 
-class ‘nav-links’
+#class ‘nav-links’
 .nav-links{
     padding:28px 0;
 }
@@ -40,7 +40,7 @@ class ‘nav-links’
 }
 
 
-CSS property for first 4 elements (‘Home’, ’Courses’, ’Reviews’, ’Contacts’) of unordered list
+#CSS property for first 4 elements (‘Home’, ’Courses’, ’Reviews’, ’Contacts’) of unordered list
 #text 
 .nav-links li a{
     text-decoration:none;
@@ -68,7 +68,7 @@ CSS property for first 4 elements (‘Home’, ’Courses’, ’Reviews’, ’
 }
 
 
-CSS property of ‘Sign Up’ button
+#CSS property of ‘Sign Up’ button
 .btn{
     background:#ff3d00;
     color: #fff;
@@ -79,10 +79,10 @@ CSS property of ‘Sign Up’ button
 
 
         
-Content section:
+CONTENT SECTION:
 The content section consists of a search bar and a list of courses below the search bar
-HTML - search bar
-The below code defines the heading and the search bar
+            
+HTML(search bar):            
 <div class="content">
                 <h1>Learn Courses Online</h1>
                 <form>
@@ -91,8 +91,7 @@ The below code defines the heading and the search bar
                 </form>
 
 
-CSS - search bar
-CSS property of 
+CSS(search bar):
 #heading 
 .content h1{
     font-size: 65px;
@@ -129,7 +128,8 @@ CSS property of
     border-radius: 6px;
     cursor:pointer;
 }
-HTML - category list
+            
+HTML(category list):
                 <div class="category-list">
                     <div class="category">
                         <img src="logocategory.png">
@@ -154,7 +154,7 @@ HTML - category list
                 </div>
 
 
-CSS - category list
+CSS(category list):
 #class ‘category list’
 .category-list{
     display:flex;
@@ -187,8 +187,3 @@ CSS - category list
     width:25px;
     margin-bottom: 5px;
 }
-
-
-
-
-SIMPLE HOME PAGE
